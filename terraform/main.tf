@@ -1,3 +1,4 @@
+
 provider "aws" {
   region = "ap-south-1"
 }
@@ -238,3 +239,4 @@ output "alb_dns" {
 output "db_endpoint" {
   value = aws_db_instance.db.endpoint
 }
+
